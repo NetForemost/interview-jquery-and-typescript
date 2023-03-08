@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+	<div class="container">
+        <!-- Exercise 3 -->
+        <div>
+            <span id="idNum" class="row idNum checkedRadio">Welcome</span>
+        </div>
+
+        <!-- Exercise 1 -->
+        <div>    
+            <div class="col-sm-4 col-xs-4 firstStageInputRowClass">
+                <label class="lblInput">* First Name</label>
+            </div>
+            <div class="col-sm-4 col-xs-4 firstStageInputRowClass">
+                <label class="lblInput">* Last Name</label>
+            </div>
+            <div class="col-sm-4 col-xs-4 firstStageInputRowClass">
+                <label class="lblInput">* Mobile</label>
+            </div>
+        </div>
+
+        <!-- Exercise 2 -->
+        <div>
+            <label id="sender" class="btn">Yes</label>
+            <button class="btn btn-success hidden">Click me!</button>
+        </div>
+
+        <!-- Exercise 4 -->
+        <div>
+            <label for="newestelement">Show new DOM element: </label>
+            <input id="newestelement"></input>
+        </div>
+		
+	</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- Instructions: All answers should be applied to the attached HTML file as jQuery code -->
+    <!-- 
+        1. Given 3 <DIV>’s of HTML code without a unique identification
+            a. add a unique ID to the second <DIV> element.
+            b. add a “for = ‘<ID>’” attribute to the second <LABEL> element referencing its parent <DIV> 
+            new ID.
+            c. Add a fourth <DIV> and child <LABEL> elements before the current 3 <DIV>’s. Set the inner 
+            text “* Email”.
+            d. Add a class named “shared” to all 4 <DIV>’s     
+    -->
+    <!--
+        2. With 2 given elements, first element is a label which looks like a button, the second is a hidden button. 
+            a. Make the <label> element focusable (by navigating to it using the keyboard TAB key)
+            b. Create a keyboard event: when the element get focus and ENTER is clicked, fire the click
+            event of the <BUTTON> element.
+    -->
+    <!--
+        3. Given a <SPAN> element, transform the <SPAN> element to an <H1> element keeping all of its original attributes and content.
+    -->
+
+    <!--
+        4. Optional. (Using jQuery and mutationObserver) 
+            Write a mutationObserver instance to detect new elements added to the DOM. 
+            In question #1 and #3 – when a new <DIV> or <H1> are created and added to the DOM – 
+            show the element type in the INPUT field named “#newestelement”.        
+    -->
+</body>
+</html>

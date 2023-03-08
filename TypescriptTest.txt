@@ -1,0 +1,6 @@
+Using typescript write an algorithm that given a number, has to print:
+
+In the case that the number is divible by 3 fizz
+In the case that the number is divisible by 5 buzz
+In the case that it is divisible by 3 and by 5 fizzbuzz
+And if it is not divisible by 3 or 5 it will write the same number
